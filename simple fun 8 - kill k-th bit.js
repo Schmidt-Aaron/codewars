@@ -1,11 +1,11 @@
 /**
- * 
- * Simple Fun #8: Kill K-th Bit
- * https://www.codewars.com/kata/simple-fun-number-8-kill-k-th-bit/train/javascript
- * 
- * Task
- * In order to stop the Mad Coder evil genius you need to decipher the encrypted message he sent to his minions. The message contains several numbers that, when typed into a supercomputer, will launch a missile into the sky blocking out the sun, and making all the people on Earth grumpy and sad.
- * You figured out that some numbers have a modified single digit in their binary representation. More specifically, in the given number n the kth bit from the right was initially set to 0, but its current value might be different. It's now up to you to write a function that will change the kth bit of n back to 0.
+
+Simple Fun #8: Kill K-th Bit
+https://www.codewars.com/kata/simple-fun-number-8-kill-k-th-bit/train/javascript
+
+Task
+In order to stop the Mad Coder evil genius you need to decipher the encrypted message he sent to his minions. The message contains several numbers that, when typed into a supercomputer, will launch a missile into the sky blocking out the sun, and making all the people on Earth grumpy and sad.
+You figured out that some numbers have a modified single digit in their binary representation. More specifically, in the given number n the kth bit from the right was initially set to 0, but its current value might be different. It's now up to you to write a function that will change the kth bit of n back to 0.
 
 Example
 For n = 37 and k = 3, the output should be 33.
@@ -31,8 +31,8 @@ Constraints: 1 ≤ k ≤ 31.
 
 More Challenge
 Are you a One-Liner? Please try to complete the kata in one line(no test for it) ;-)
- * 
- */
+ 
+*/
 
 function killKthBit(n, k) {
   // conversion helpers
