@@ -40,11 +40,10 @@ function killKthBit(n, k) {
   const toBase10 = num => parseInt(num, 2);
 
   let binary = toBinary(n);
-  let arr = binary.split('');
+  let arr = binary.split("");
 
-  arr[arr.length - k] = '0'
-  
+  arr[arr.length - k] = "0";
 
-  let updatedCode = arr.join('');
-  return toBase10(updatedCode)
+  let updatedCode = arr.join("");
+  return toBase10(updatedCode);
 }
