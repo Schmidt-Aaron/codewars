@@ -10,9 +10,10 @@
  *
  */
 
+// my solution
 const persistence = num => {
   let count = 0;
-  let digits;
+  // helper functions
   const numDigits = num => num.toString().length;
   const productOfDigits = num => {
     return num
@@ -23,8 +24,8 @@ const persistence = num => {
       });
   };
 
-  digits = numDigits(num);
-
+  let digits = numDigits(num);
+  // main logic
   while (digits > 1) {
     num = productOfDigits(num);
     count++;
@@ -32,3 +33,5 @@ const persistence = num => {
   }
   return count;
 };
+
+// other solutions of note
