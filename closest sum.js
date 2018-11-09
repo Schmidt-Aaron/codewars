@@ -97,10 +97,10 @@ const addUp = arr => arr.reduce((a, b) => a + b);
 
 const closestSum = (ints, num) => {
   // create array with all combinations of three
-  const combinations = combinations(ints);
+  const combinationArr = combinations(ints);
 
   // add up individual arrays
-  const sums = combinations.map(el => addUp(el));
+  const sums = combinationArr.map(el => addUp(el));
 
   // find the closest
   let closest;
